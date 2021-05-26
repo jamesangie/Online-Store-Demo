@@ -1,0 +1,36 @@
+.nav{
+    
+    
+    box-shadow: 2px 2px 4px rgba(128, 128, 128, 0.527);
+
+    &__content {
+        width: 80%;
+        margin: auto;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+
+    &__item {
+        margin: 0 2rem;
+    }
+
+    &__link {
+        size: 3rem;
+        text-decoration: none;
+        color: gray;
+    }
+}
+
+.logo {
+    margin: 1rem 3rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+}
