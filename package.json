@@ -1,0 +1,14 @@
+{
+  "name": "online_store_demo",
+  "version": "1.0.0",
+  "description": "Online store demo",
+  "main": "index.js",
+  "scripts": {
+    "compiler" : "node-sass styles/sass/style.scss styles/style.css -w"
+  },
+  "author": "James Zhang",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
