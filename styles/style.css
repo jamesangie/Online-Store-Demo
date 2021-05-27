@@ -53,6 +53,11 @@
   text-decoration: none;
   margin: 0 1rem; }
 
+.header {
+  background-image: linear-gradient(rgba(255, 0, 128, 0.349), rgba(255, 115, 0, 0.363)), url("../../../images/pexels-freestocksorg-291762.jpg");
+  height: 100vh;
+  background-attachment: fixed; }
+
 body {
   margin: 0;
   padding: 0; }
