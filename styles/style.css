@@ -105,8 +105,9 @@
   display: flex; }
   .category__left {
     width: 75%;
-    background-color: red;
     height: 100%; }
+    .category__left--top {
+      display: flex; }
   .category__right {
     width: 25%;
     height: 100%; }
@@ -115,6 +116,7 @@
     height: 25rem;
     margin: auto;
     box-shadow: 3px 3px 5px gray;
+    margin: 0 1rem;
     margin-bottom: 2rem;
     border-radius: 5px;
     overflow: hidden; }
@@ -130,7 +132,7 @@
   .category__img-content {
     width: 100%;
     height: 100%;
-    opacity: 70%;
+    opacity: 50%;
     position: absolute;
     background-color: none; }
   .category__info {
@@ -160,6 +162,12 @@
     color: orange;
     border-width: 3px;
     border-radius: 5px; }
+
+.row {
+  height: 27rem; }
+
+.top {
+  margin-top: -27rem; }
 
 body {
   margin: 0;
