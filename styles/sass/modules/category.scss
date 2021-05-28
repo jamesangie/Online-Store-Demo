@@ -13,6 +13,31 @@
         &--top {
             display: flex;
         }
+
+        &--bottom {
+            display: flex;
+            padding: 0.7rem;
+            &--info {
+                width: 150%;
+                padding: 0.7rem 1.5rem;
+            }
+
+            &--title {
+                color: rgb(255, 102, 0);
+                font-size: 3rem;
+                margin-top: 0;
+                padding-top: 0;
+            }
+
+            &--desc {
+                color: black;
+                margin-bottom: 3rem;
+            }
+
+            &--btn {
+                margin: 1.3rem;
+            }
+        }
     }
 
     
@@ -91,8 +116,8 @@
     &__btn {
         text-decoration: none;
         padding: 0.7rem 1rem;
-        background-color: white;
-        color: orange;
+        background-color: orange;
+        color: black;
         border-width: 3px;
         border-radius: 5px;
     }
@@ -108,4 +133,10 @@
 
 .top {
     margin-top: -27rem;
+}
+
+.img {
+    background-color: black;
+    opacity: 70%;
+
 }
