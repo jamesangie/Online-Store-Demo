@@ -12,7 +12,77 @@
 
     &__right {
         width: 25%;
-        background-color: yellow;
         height: 100%;
     }
+
+    &__content {
+        width: 90%;
+        height: 25rem;
+        margin: auto;
+        box-shadow: 3px 3px 5px gray;
+    }
+
+    &__img {
+
+        width: 100%;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+        background-color: black;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    &__img-content {
+        width: 100%;
+        height: auto;
+        opacity: 70%;
+        
+        position: absolute;
+        background-color: none;
+    }
+
+    &__info {
+        position: relative;
+        margin-top: -25rem;
+        z-index: 10;
+        top: 0;
+        left: 0;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    &__title {
+        font-size: 3rem;
+        color: rgb(255, 102, 0);
+        margin-bottom: 2rem;
+    }
+
+    &__desc {
+        color: wheat;
+    }
+
+    &__star {
+        color: orange;
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;    
+    }
+
+    &__rate {
+        margin-bottom: 1.5rem;
+    }
+
+    &__btn {
+        text-decoration: none;
+        padding: 0.7rem 1rem;
+        background-color: white;
+        color: orange;
+        border-width: 3px;
+        border-radius: 5px;
+    }
+
+
+
+
 }
