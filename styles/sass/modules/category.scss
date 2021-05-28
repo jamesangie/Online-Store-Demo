@@ -1,0 +1,18 @@
+.category {
+    
+    padding: 2rem 4rem;
+    height: 100rem;
+    display: flex;
+
+    &__left {
+        width: 75%;
+        background-color: red;
+        height: 100%;
+    }
+
+    &__right {
+        width: 25%;
+        background-color: yellow;
+        height: 100%;
+    }
+}

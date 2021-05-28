@@ -86,8 +86,10 @@
   align-items: center;
   margin: -4rem auto;
   padding: 6rem;
-  box-shadow: 3px 3px 5px gray;
-  background-color: white; }
+  box-shadow: 3px 3px 5px rgba(128, 128, 128, 0.473);
+  border-radius: 4px;
+  background-color: white;
+  margin-bottom: 3rem; }
   .about__content {
     align-items: center;
     display: flex;
@@ -96,6 +98,19 @@
     width: 9rem;
     height: auto;
     align-items: center; }
+
+.category {
+  padding: 2rem 4rem;
+  height: 100rem;
+  display: flex; }
+  .category__left {
+    width: 75%;
+    background-color: red;
+    height: 100%; }
+  .category__right {
+    width: 25%;
+    background-color: yellow;
+    height: 100%; }
 
 body {
   margin: 0;
