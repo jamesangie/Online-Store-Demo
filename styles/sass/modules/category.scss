@@ -1,8 +1,6 @@
 .category {
     
     padding: 2rem 4rem;
-    height: 100rem;
-    display: flex;
 
     
 
@@ -11,11 +9,10 @@
         height: 100%;
 
         &--top {
-            display: flex;
+            margin-bottom: 3rem;
         }
 
         &--bottom {
-            display: flex;
             padding: 0.7rem;
             &--info {
                 width: 150%;
@@ -94,8 +91,18 @@
     }
 
     &__title {
+        &--orange {
+            color: rgb(255, 102, 0);
+        }
+
+        &--gray {
+            color: white;
+        }
+
+        &--red {
+            color: red;
+        }
         font-size: 3rem;
-        color: rgb(255, 102, 0);
         margin-bottom: 2rem;
     }
 
@@ -110,7 +117,7 @@
     }
 
     &__rate {
-        margin-bottom: 1.5rem;
+        margin-bottom: 3rem;
     }
 
     &__btn {
@@ -127,9 +134,18 @@
 
 }
 
-.cat_row {
+.row {
+    display: flex;
+
+}
+
+.cat__row {
     height: 27rem;
     margin: 0 4rem;
+}
+
+.cat__col {
+
 }
 
 .top {
@@ -137,7 +153,5 @@
 }
 
 .img {
-    background-color: black;
-    opacity: 70%;
-
+    opacity: 1;
 }
