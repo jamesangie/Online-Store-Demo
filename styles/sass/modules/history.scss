@@ -1,0 +1,21 @@
+.history {
+    padding: 4rem 2rem;
+
+    &__content {
+        display: flex;
+    }
+
+    &__img--container {
+        width: 50%;
+        background-image: url(../../../images/pexels-freestocksorg-291762.jpg);
+    }
+    
+
+    &__text {
+        width: 50%;
+    }
+
+    &__title {
+        
+    }
+}
