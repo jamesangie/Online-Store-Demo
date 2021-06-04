@@ -1,5 +1,5 @@
 .history {
-    padding: 4rem 2rem;
+    padding: 4rem 0rem;
 
     &__content {
         display: flex;
@@ -8,14 +8,35 @@
     &__img--container {
         width: 50%;
         background-image: url(../../../images/pexels-freestocksorg-291762.jpg);
+        margin-right: 2rem;
+        clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
+        background-position: center;
+        background-attachment: fixed;
     }
     
 
-    &__text {
+    &__text--container {
         width: 50%;
     }
 
     &__title {
-        
+        font-size: 1.6rem;
+        margin-top: 0;
+    }
+
+    &__desc {
+        font-size: 1.2rem;
+        line-height: 1.6;
+        color: gray;
+        margin-bottom: 2rem;
+    }
+
+    &__btn {
+        text-decoration: none;
+        margin-left: 0.5rem;
+        padding: 1rem 1.6rem;
+        background-color: orange;
+        color: black;
+        border-radius: 10px;
     }
 }

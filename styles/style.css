@@ -100,14 +100,33 @@
     align-items: center; }
 
 .history {
-  padding: 4rem 2rem; }
+  padding: 4rem 0rem; }
   .history__content {
     display: flex; }
   .history__img--container {
     width: 50%;
-    background-image: url(../../../images/pexels-freestocksorg-291762.jpg); }
-  .history__text {
+    background-image: url(../../../images/pexels-freestocksorg-291762.jpg);
+    margin-right: 2rem;
+    clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
+    background-position: center;
+    background-attachment: fixed; }
+  .history__text--container {
     width: 50%; }
+  .history__title {
+    font-size: 1.6rem;
+    margin-top: 0; }
+  .history__desc {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: gray;
+    margin-bottom: 2rem; }
+  .history__btn {
+    text-decoration: none;
+    margin-left: 0.5rem;
+    padding: 1rem 1.6rem;
+    background-color: orange;
+    color: black;
+    border-radius: 10px; }
 
 .category {
   padding: 2rem 4rem; }
