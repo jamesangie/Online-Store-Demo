@@ -128,6 +128,40 @@
     color: black;
     border-radius: 10px; }
 
+.reviews {
+  padding: 8rem 4rem; }
+  .reviews__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+
+.review {
+  padding: 1rem 2rem;
+  width: 40%;
+  border: 1px solid gray;
+  margin: 1.2rem;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 4px gray; }
+  .review__user {
+    display: flex;
+    align-items: center; }
+  .review__img {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    margin-right: 2rem; }
+  .review__title {
+    margin: 0;
+    color: #777; }
+  .review__location {
+    margin: 0; }
+  .review__icon {
+    color: gray;
+    font-size: 1.1rem; }
+  .review__text {
+    color: orange;
+    font-size: 1.2rem; }
+
 .category {
   padding: 2rem 4rem; }
   .category__left {
