@@ -1,3 +1,16 @@
 .products {
     padding: 8rem 2rem;
+
+    &__content {
+        display: flex;
+    }
+}
+
+.product {
+    padding: 2rem 2rem;
+
+    &__img {
+        width: 10rem;
+        height: 10rem;
+    }
 }
