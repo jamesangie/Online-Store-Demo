@@ -294,6 +294,46 @@
       margin-bottom: 1rem;
       text-align: start; }
 
+.email {
+  padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(165, 115, 115, 0.842); }
+  .email__content {
+    text-align: center;
+    background-color: honeydew;
+    padding: 5rem 18rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px gray; }
+    .email__content--info {
+      background-color: lightgoldenrodyellow;
+      justify-content: center;
+      padding: 5rem 14rem;
+      border-radius: 5px;
+      box-shadow: 2px 2px 3px gray; }
+  .email__title {
+    color: hotpink;
+    font-size: 3rem;
+    margin-bottom: 2rem; }
+  .email__form {
+    display: flex;
+    flex-direction: column; }
+  .email__input {
+    font-size: 1rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px gray;
+    margin-bottom: 1rem; }
+  .email__btn {
+    height: 3rem;
+    width: 10rem;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 3px gray;
+    background-color: white; }
+
 body {
   margin: 0;
   padding: 0; }

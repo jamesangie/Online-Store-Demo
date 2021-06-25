@@ -1,0 +1,55 @@
+.email {
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(165, 115, 115, 0.842);
+
+    &__content {
+        
+        text-align: center;
+        background-color: honeydew;
+        padding: 5rem 18rem;
+        border-radius: 5px;
+        box-shadow: 2px 2px 3px gray;
+
+        &--info {
+            background-color: lightgoldenrodyellow;
+            justify-content: center;
+            padding: 5rem 14rem;
+            border-radius: 5px;
+            box-shadow: 2px 2px 3px gray;
+        }
+    }
+
+    &__title {
+        color: hotpink;
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__input {
+        font-size: 1rem;
+        border: none;
+        
+        padding: 1rem;
+        border-radius: 5px;
+        box-shadow: 2px 2px 3px gray;
+        margin-bottom: 1rem;
+    }
+
+    &__btn {
+        height: 3rem;
+        width: 10rem;
+        margin: auto;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 2px 2px 3px gray;
+        background-color: white;
+    }
+    
+}
