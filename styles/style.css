@@ -54,7 +54,7 @@
   margin: 0 1rem; }
 
 .header {
-  background-image: linear-gradient(rgba(255, 0, 128, 0.349), rgba(255, 115, 0, 0.363)), url("../../../images/pexels-freestocksorg-291762.jpg");
+  background-image: linear-gradient(rgba(255, 0, 128, 0.349), rgba(255, 115, 0, 0.363)), url("../images/pexels-freestocksorg-291762.jpg");
   height: 100vh;
   background-attachment: fixed; }
   .header__hero-content {
@@ -105,7 +105,7 @@
     display: flex; }
   .history__img--container {
     width: 50%;
-    background-image: url(../../../images/pexels-freestocksorg-291762.jpg);
+    background-image: url(../images/pexels-freestocksorg-291762.jpg);
     margin-right: 2rem;
     clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
     background-position: center;
