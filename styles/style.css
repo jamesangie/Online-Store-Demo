@@ -267,25 +267,32 @@
   width: 20%;
   margin: 0 4rem;
   box-shadow: 2px 2px 5px gray; }
+  .product__text {
+    text-align: start;
+    padding: 0 0.8rem; }
   .product__title {
     color: gray;
     font-size: 1.5rem;
     margin-bottom: 1rem; }
   .product__author {
     color: orange; }
+  .product__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
   .product__rating {
     color: rgba(255, 0, 0, 0.589);
+    font-size: 1.3rem;
     margin-bottom: 0.5rem; }
   .product__price {
+    font-size: 1.3rem;
     color: orange; }
   .product__img {
     width: 100%;
     height: auto; }
     .product__img--container {
       margin-bottom: 1rem;
-      text-align: center; }
-  .product__text {
-    text-align: center; }
+      text-align: start; }
 
 body {
   margin: 0;
