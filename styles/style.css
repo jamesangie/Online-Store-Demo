@@ -37,12 +37,18 @@
   width: 80%;
   margin: auto;
   justify-content: space-between; }
+  @media only screen and (max-width: 630px) {
+    .header__box {
+      flex-direction: column; } }
 
 .header__icon {
   color: #f0e8e8;
   font-size: 2rem; }
   .header__icon i {
     margin: 0.5rem 0.5rem; }
+  @media only screen and (max-width: 630px) {
+    .header__icon {
+      font-size: 1rem; } }
 
 .header__form input {
   border: none;
@@ -50,11 +56,18 @@
   padding: 0.8rem 4rem;
   padding-left: 0.8rem; }
 
+@media only screen and (max-width: 630px) {
+  .header__form {
+    margin-bottom: 0.5rem; } }
+
 .header__botton a {
   font-size: 1.5rem;
   color: black;
   text-decoration: none;
   margin: 0 1rem; }
+  @media only screen and (max-width: 630px) {
+    .header__botton a {
+      font-size: 1rem; } }
 
 .header {
   background-image: linear-gradient(rgba(255, 0, 128, 0.349), rgba(255, 115, 0, 0.363)), url("../images/pexels-freestocksorg-291762.jpg");
@@ -151,6 +164,10 @@
   margin: 1.2rem;
   box-sizing: border-box;
   box-shadow: 3px 3px 4px gray; }
+  @media only screen and (max-width: 630px) {
+    .review {
+      width: 100%;
+      flex-direction: column; } }
   .review__user {
     display: flex;
     align-items: center; }
@@ -270,12 +287,20 @@
   padding: 8rem 2rem; }
   .products__content {
     display: flex; }
+    @media only screen and (max-width: 630px) {
+      .products__content {
+        flex-direction: column;
+        align-items: center; } }
 
 .product {
   padding-bottom: 1rem;
   width: 20%;
   margin: 0 4rem;
   box-shadow: 2px 2px 5px gray; }
+  @media only screen and (max-width: 630px) {
+    .product {
+      margin-bottom: 1rem;
+      width: 80%; } }
   .product__text {
     text-align: start;
     padding: 0 0.8rem; }
@@ -320,10 +345,16 @@
       padding: 5rem 14rem;
       border-radius: 5px;
       box-shadow: 2px 2px 3px gray; }
+      @media only screen and (max-width: 630px) {
+        .email__content--info {
+          padding: 2rem 2rem; } }
   .email__title {
     color: hotpink;
     font-size: 3rem;
     margin-bottom: 2rem; }
+    @media only screen and (max-width: 630px) {
+      .email__title {
+        font-size: 1.5rem; } }
   .email__form {
     display: flex;
     flex-direction: column; }
@@ -348,6 +379,10 @@
   padding: 4rem;
   display: flex;
   justify-content: space-between; }
+  @media only screen and (max-width: 630px) {
+    .footer {
+      flex-direction: column;
+      align-item: center; } }
   .footer__list {
     list-style: none; }
   .footer__item {
@@ -356,6 +391,9 @@
     text-decoration: none;
     font-size: 1.2rem;
     color: white; }
+    @media only screen and (max-width: 630px) {
+      .footer__link {
+        font-size: 1rem; } }
 
 body {
   margin: 0;

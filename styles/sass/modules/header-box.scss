@@ -10,6 +10,10 @@
     width: 80%;
     margin: auto;
     justify-content: space-between;
+
+    @include phone {
+        flex-direction: column;
+    }
     
 }
 
@@ -21,6 +25,10 @@
     i {
         margin: 0.5rem 0.5rem;
     }
+
+    @include phone {
+        font-size: 1rem;
+    }
 }
 
 .header__form {
@@ -30,6 +38,10 @@
         padding: 0.8rem 4rem;
         padding-left: 0.8rem;
     }
+
+    @include phone {
+        margin-bottom: 0.5rem;
+    }
 }
 
 .header__botton {
@@ -38,5 +50,9 @@
         color: black;
         text-decoration: none;
         margin: 0 1rem;
+
+        @include phone{
+            font-size: 1rem;
+        }
     }
 }

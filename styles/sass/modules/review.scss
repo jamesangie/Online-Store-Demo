@@ -15,6 +15,12 @@
     margin: 1.2rem;
     box-sizing: border-box;
     box-shadow: 3px 3px 4px gray;
+
+    @include phone {
+        width: 100%;
+        flex-direction: column;
+    }
+
     &__user {
         display: flex;
         align-items: center;

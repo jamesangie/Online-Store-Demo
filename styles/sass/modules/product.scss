@@ -3,6 +3,10 @@
 
     &__content {
         display: flex;
+        @include phone{
+            flex-direction: column;
+            align-items: center;
+        }
     }
 }
 
@@ -12,7 +16,12 @@
     margin: 0 4rem;
     box-shadow: 2px 2px 5px gray;
 
-    &__text {
+    @include phone {
+        margin-bottom: 1rem;
+        width: 80%;
+    }
+
+    &__text {   
         text-align: start;
         padding: 0 0.8rem;
     }
