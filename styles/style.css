@@ -229,7 +229,8 @@
         padding-top: 0; }
       .category__left--bottom--desc {
         color: black;
-        margin-bottom: 3rem; }
+        margin-bottom: 3rem;
+        font-size: 1.2rem; }
       .category__left--bottom--btn {
         margin: 1.3rem; }
   .category__right {
