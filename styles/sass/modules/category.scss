@@ -8,15 +8,29 @@
         width: 75%;
         height: 100%;
 
+        @include phone {
+            width: 100%;
+            flex-direction: column;
+        }
+
         &--top {
             margin-bottom: 3rem;
         }
 
         &--bottom {
             padding: 0.7rem;
+
+            @include phone {
+                width: 100%;
+                flex-direction: column;
+            }
             &--info {
                 width: 150%;
                 padding: 0.7rem 1.5rem;
+
+                @include phone {
+                    width: 100%;
+                }
             }
 
             &--title {
@@ -44,6 +58,11 @@
     &__right {
         width: 25%;
         height: 100%;
+
+        @include phone {
+            width: 100%;
+            flex-direction: column;
+        }
     }
 
     &__content {
@@ -55,6 +74,10 @@
         margin-bottom: 2rem;
         border-radius: 5px;
         overflow: hidden;
+
+        @include phone {
+            margin-bottom: 1rem;
+        }
     }
 
     &__img {
@@ -137,11 +160,19 @@
 .row {
     display: flex;
 
+    @include phone{
+        flex-direction: column;
+    }
+
 }
 
 .cat__row {
     height: 27rem;
     margin: 0 4rem;
+
+    @include phone {
+        margin-bottom: 1rem;
+    }
 }
 
 .cat__col {
